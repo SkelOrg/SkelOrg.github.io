@@ -41,3 +41,14 @@ body {
   height: 150px;
   position: absolute; left: 25px;
 }
+.discordserver {
+  border-radius: 25px;
+  background: #1b1b1b;
+  padding: 20px;
+  width: 500px;
+  height: 150px;
+  position: absolute; left: 25px; top: 350px;
+}
+.underlined {
+  color: #808080
+}
