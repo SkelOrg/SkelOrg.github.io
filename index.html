@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>SkelebrineSite - Home</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="./css/style1.css">
-		<link rel="icon" href="./img/logo.png"
-			type = "image/x-icon">
-	</head>
-	<body>
-		<div class="topnav">
-			<a class="active" href="index.html">Home</a>
-			<a href="about.html">Chris' Realm</a>
-			<a href="doc.html">Documentation</a>
-			<a href="down.html">Download</a>
-		</div>
-		<div class="main">
-			<h1>About This Website</h1>
-			<p>The website was made by Skelebrine (or Skelebrinium) to display news about the new server I am in. Chris' Realms.<br>
-				This website was coded manually, with many lines of code from many different files.
-			</p>
-		</div>
-	</body>
+  <head>
+    <title>SkelebrineSite - Security</title>
+    <link rel="stylesheet" href="./css/keypad.css">
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1 class="intro">This is a keypad, but the buttons are toggleable. They can be in one of 2 states each: <span class="deadword">Dead</span> or <span class="liveword">Live</span>.</h1>
+    <p>Sorry if you don't like this.</p>
+    <div class="div1">
+      <canvas class="canvas"></canvas>
+      <button id="cell1" class="dead1" onclick="createlive1()"></button>
+      <button id="cell2" class="dead2" onclick="createlive2()"></button>
+      <button id="cell3" class="dead3" onclick="createlive3()"></button>
+      <a class="submit" onclick="submitcode()">Submit</a>
+    </div>
+  </body>
 </html>

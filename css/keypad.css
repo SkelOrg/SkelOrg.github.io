@@ -1,0 +1,43 @@
+.div1 {
+  background-color: #1a1a1a;
+  width: 375px;
+  height: 125px;
+}
+.dead1 {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  position: absolute; left: 20px; top: 100px;
+  border: 1px solid white;
+}
+.dead2 {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  position: absolute; left: 145px; top: 100px;
+  border: 1px solid white;
+}
+.dead3 {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  position: absolute; left: 270px; top: 100px;
+  border: 1px solid white;
+}
+.canvas {
+  width: 375px;
+  height: 125px;
+}
+.intro {
+  font-size: 20px;
+}
+body {
+  background-color: #1f1f1f;
+  color: #C0C0C0;
+}
+.deadword {
+  color: #000000;
+}
+.liveword {
+  color: #ffffff;
+}
