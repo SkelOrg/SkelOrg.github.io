@@ -1,0 +1,12 @@
+body {
+  background-color: #1a1a1a;
+  color: #C0C0C0;
+  font-family: 'Open Sans', sans-serif;
+}
+.loadimg {
+  image-rendering: pixelated;
+  position: absolute; left: 52em; top: 25em;
+}
+.errormessage {
+  position: absolute; left: 40em; top: 30em;
+}
