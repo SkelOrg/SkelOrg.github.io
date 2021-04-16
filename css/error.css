@@ -5,8 +5,16 @@ body {
 }
 .loadimg {
   image-rendering: pixelated;
-  position: absolute; left: 52em; top: 25em;
+  position: fixed; left: 52em; top: 25em;
 }
 .errormessage {
-  position: absolute; left: 40em; top: 30em;
+  position: fixed; left: 40em; top: 30em;
+}
+.box {
+  border-radius: 20px;
+  background: #1e1e1e;
+  padding: 10px;
+  width: 800px;
+  height: 500px;
+  position: absolute; left: 30em; top: 12em;
 }
