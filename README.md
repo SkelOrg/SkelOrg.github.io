@@ -6,3 +6,6 @@ ___
 [Demise-Assistant](https://github.com/Skelebrine/Demise-Assistant)
 [Roblox Profile](https://www.roblox.com/users/714842192/profile)
 ___
+## Other Info:
+This is currently in development.
+___
