@@ -2,10 +2,18 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   background: linear-gradient(to right, #111111, #202020);
+  text-align: center;
 }
+
+.downloadbutton {
+  color: white;
+  font-size: 24px;
+}
+
 .main {
   color: #C0C0C0;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
