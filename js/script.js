@@ -2,6 +2,7 @@
 var pagelist = ["home","documentation","recipes","downloads","keypad","skel","about"];
 
 // Commands
+// Send user to the page they specified
 function gotopage(page) {
   if (page === "about") {
     console.log("Going to '".concat(pagelist[6]).concat("'."));
@@ -27,4 +28,9 @@ function gotopage(page) {
   } else {
     console.error("That page doesn't exist. A list of the pages are ".concat(pagelist));
   }
+}
+
+// Generate random math question
+function mathquestion() {
+  math.random(0,100);
 }
