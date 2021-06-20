@@ -33,6 +33,6 @@ function createlive3() {
 }
 function submitcode() {
   if (cell1on === false && cell2on === true && cell3on === false) {
-    location.href = 'home.html';
+    location.href = 'index.html';
   }
 }
