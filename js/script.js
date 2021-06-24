@@ -29,8 +29,3 @@ function gotopage(page) {
     console.error("That page doesn't exist. A list of the pages are ".concat(pagelist));
   }
 }
-
-// Generate random math question
-function mathquestion() {
-  math.random(0,100);
-}
