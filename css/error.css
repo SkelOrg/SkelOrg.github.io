@@ -5,10 +5,19 @@ body {
 }
 .loadimg {
   image-rendering: pixelated;
-  position: fixed; left: 52em; top: 25em;
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}
+.l {
+  color: #C0C0C0;
+}
+.redirect {
+  position: absolute; left: 50%; top: 55%;
+  transform: translate(-50%, -50%);
 }
 .errormessage {
-  position: fixed; left: 40em; top: 30em;
+  position: absolute; left: 50%; top: 35%;
+  transform: translate(-50%, -50%);
 }
 .box {
   border-radius: 20px;
@@ -16,5 +25,7 @@ body {
   padding: 10px;
   width: 800px;
   height: 500px;
-  position: absolute; left: 30em; top: 12em;
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
